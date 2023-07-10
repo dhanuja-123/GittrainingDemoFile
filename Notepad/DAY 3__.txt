@@ -1,0 +1,32 @@
+DAY 3__
+Reader and Writer, Serialization, Inheritance, Abstract class, Interface, Collections, Jdbc.
+_______________________
+network issue, memory issue,other issue.
+Storing an object in the file.
+the process of writing an object and store in the file is serialization.converting an object and making it to store in the file.
+__________
+2 diff ways to load a driver
+* Programmatically
+	- Using the ****forName()**** method
+		>available in java.lang.Class. 
+		>loads the jdbc driver and register the driver with the driver manager.
+	- Using the registration driver method.
+		we can create an instance of the driver class to load a jdbc driver
+		instance enables to provide the name of the driver class at run time.
+		st to create an instance of the driver
+	Connecting the data base
+		driver manager class provide the ***getConnection()**** method to create a connection object.
+		the getConnection() method 
+
+
+write a query and execute the query-
+				    |
+JDBC Statements can be created and executed as follows:
+The connection object provides the createStatement() method 
+* manually
+
+import java.sql{
+public static void main(String args[] ) {
+try {
+Class.forName("com.mysql.cj.jdbc.Driver");
+

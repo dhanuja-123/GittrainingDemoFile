@@ -1,0 +1,48 @@
+CREATING
+--------------- 
+C# WINDOWS WEB
+ASP.NET FRAMEWORK
+MYFIRSTWEBAPP
+MVC-MODEL VIEW CONTROLLER
+
+SELECT EMPTY/WEBFORMS
+->WEB FORMS-create-about(design)
+contactooo
+ascx-resuable control can be used as a small part in any page
+master page-designed and added to every page
+add newitem-web form-Loginform
+
+view-toolbox-blANK(RUN SO STOP)
+-laBEL - DRAG AND DROP
+TEXTBOX - DRAG AND DROP
+
+**RApid application development(RAD)
+**event driven programming --code executes wn event occurs
+
+**always write a code inside an event
+
+Response.write("Login clicked");
+Response.write("Cancel clicked");
+-----------
+if(txtUsername.Text=="Administrator" && txtPassword Text == "Password")
+{
+Response.redirect("Default.aspx");
+else {
+	lblMessage.Text = "Invalid username and password";
+}
+------
+cancel
+
+txtUsername.Text="";
+txtPassword.Text="";
+txtUsername.Focus();
+
+
+
+
+
+
+
+
+
+

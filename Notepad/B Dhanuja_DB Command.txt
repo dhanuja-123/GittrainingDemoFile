@@ -1,0 +1,36 @@
+//CREATING A DATABASE 
+create database emailapp;
+ use emailapp;
+
+//CREATING A TABLE NAMED TICKET
+ create table ticket;
+ create table ticket(ticketid int, tickettype varchar(60), ticketraiserName varchar(30), ticketraiserphoneNO long, ticketdesc varchar(40));
+
+
+//INSERTING THE VALUES INTO TABLE
+ insert into ticket values(100, 'Report a problem', 'Akki', 9000204756, 'TV not working');
+ insert into ticket values(101, 'Access Issue', 'Bhagya', 9010204756, 'Access card not working');
+ insert into ticket values(102, 'General Enquiry', 'Shwetha', 9987689076, 'know charge details');
+ insert into ticket values(103, 'Feedback', 'Enock', 9848877276, 'Good Support by team');
+ insert into ticket values(104, 'Router issue', 'Rucha', 9847777276, 'Electronic issue');
+ insert into ticket values(105, 'Feedback', 'Sai', 9457777276, 'Bad support by team');
+
+ 
+// READING THE VALUES INTO TABLE
+ select * from ticket;
+
+//OUTPUT:
++----------+------------------+------------------+---------------------+-------------------------+
+| ticketid | tickettype       | ticketraiserName | ticketraiserphoneNO | ticketdesc              |
++----------+------------------+------------------+---------------------+-------------------------+
+|      100 | Report a problem | Akki             | 9000204756          | TV not working          |
+|      101 | Access Issue     | Bhagya           | 9010204756          | Access card not working |
+|      102 | General Enquiry  | Shwetha          | 9987689076          | know charge details     |
+|      103 | Feedback         | Enock            | 9848877276          | Good Support by team    |
+|      104 | Router issue     | Rucha            | 9847777276          | Electronic issue        |
+|      105 | Feedback         | Sai              | 9457777276          | Bad support by team     |
++----------+------------------+------------------+---------------------+-------------------------+
+6 rows in set (0.00 sec)
+
+ 
+

@@ -1,0 +1,20 @@
+DAY 1____
+Introduction to Core Java Programming and Concepts, Class and Object Basics, Package Overview - Using Packages to Organize Code, Accessing data, the "this" variable, Encapsulation and Access Control, public and private Access, Constructors and Initialization, static Members of a Class, Scopes, Blocks, References to Objects, Using Lombok for automated class members.
+1. Download & Install jdk
+2. Set Path
+3. Install Eclipse
+
+    	______________________________________________________________________________________________________________________________________
+ Access modifiers
+	public-can be accessed in any package
+	default- can be accessed only in the package
+	private-it encapsulates
+	protected- can be accessed in the child class after inheritance.
+other keywords- abstract,static,
+static-many classes share same memory
+		_____________________________________
+1.Hello world
+2.class student with features and displaydetails, no constructor
+3.class mobile with features and default constructor, parameterized constructor 
+   create two objects and excute
+4.class employee with features and static variable, default parametrized constructor.

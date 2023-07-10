@@ -1,0 +1,32 @@
+Fundamentals of sdlc
+--------------------
+What are the different stages in the lifecycle of a software development?
+requirements gathering,
+analysis- nfrs Non functionctional requirements, fr functional requirements identify entities, sequence, flow
+design- start design the required architecture, build the code , develop it, testing 
+deploy- deploying the project and checking whether it works if not sent again to testing.
+maintenance- doing management, monitoring upto its valid time
+
+what would happen in each stage (4-5 points)
+
+What are different methodologies followed in the sdlc
+
+Waterfall-step by step process, going to next step after the 1st step completes totally
+Spiral-release projects in versions,
+Agile - same as spiral but faster than it (current trend) -continuous improvement
+ scrum-complete application is divided into days called sprint, update stories called as product backlog -product manager
+sprint - fixed set of tasks
+ kanban- no fixed set of tasks- options keep changing
+burn chart- graph show what we do and not done
+
+- a reusable code is called as component
+---Extension of class libraries is called services.
+------Microservices can do only service at a time.It contains one method at a time.
+-------
+
+
+SRS-software requirement specification4
+problem statement
+
+ Cost of defect repair, cost of inadequate testing
+

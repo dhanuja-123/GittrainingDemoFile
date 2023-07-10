@@ -1,0 +1,33 @@
+Database
+Acollection of database objects. (DAta Base is a collection of related data) 
+1.Tables - fixed set of rows and columns - (RDBMS-Relational DataBase Management System)
+2.Triggers
+3.Transaction
+4.Cursor
+5.Stored Procedures
+6.Indexes
+7.Views
+8.Functions
+____________
+1.Mysql
+ 	
+Oracle
+MS Sql
+Access
+IBM D2
+
+1.we need to install data base server
+   mMYSql
+   Console  (WOrk bench-Graphical)
+	**primary  building block is table -DAta is always stored in table.
+		
+2. UI ready
+3. 
+
+___________-
+Creating a data base
+
+Create database dbname
+use dbname
+then start creating tables,enter data, 
+A tsble is a collection of columns of diff data types.

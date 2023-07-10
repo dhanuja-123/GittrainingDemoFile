@@ -1,0 +1,76 @@
+BASIC WEB CONCEPTS
+---------------------------------
+1. start visual studio 
+2. create a new project
+3.c# windows web
+4.Right click on project
+5.
+
+----------------
+To get 
+ref- right click-add service -go back - copy the url-paste-click on go
+
+Create a webservice called Login service
+create a class called Login 
+create a method called 
+public bool ValidateUser(string username, string password) {
+
+}
+
+--------------------------------------
+webpage 
+1.What is a web page
+-a simple doc displayed browser hyper text doc 
+-page made of html
+
+2. What is a website / web app
+-collection of webpages
+
+3.web page is made up of
+	html
+
+4. wr do we access web pages
+	web browser
+
+5. wr do webpages execute
+	web server
+
+6. wht is a browser
+	software/app used to access web pages
+
+7. what is a url
+	it is an address to access web pages
+	uniform/universal resource locator
+
+8. what is a request
+	wn we type a url and press enter the details we type are sent as request.
+
+9. what is a response
+	web servers sends response to the request
+
+10. what is a script
+	programming
+
+11. what is a client side script and why is it called client side
+	a prog runs on the client side memory
+	along with response some code also travels as a response and is stored in browser memory.
+	exe in browser memory
+
+
+12. give ex of client side script
+	javascript
+
+13. what is a server side script and why is it called server side
+	any thing which runs on server side 
+
+14. give example of server side script
+	C#-ASP
+	PHP
+	JSP
+	Serverlets
+	ASP.NETCORE
+
+HTML- <> </> every open tag should have close tag is markup lang
+
+xml-exchange data.
+html-to design web pages

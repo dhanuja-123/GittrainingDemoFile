@@ -1,0 +1,9 @@
+1.What is Serialization and why?.
+2.A class should inherit __ class so that its object can be serialized;
+3.Which classs  of java.io did we use to write a object to a file
+4. Which classs  of java.io did we use to read object data from file.
+5. What is deserialization give syntax.
+6. How did we type caste data from file into object.
+7.   Based on the ticket type, identify the SLA time
+__________________________
+DAY - 5

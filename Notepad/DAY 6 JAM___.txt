@@ -1,0 +1,78 @@
+DAY 6 JAM___
+
+
+
+1.what are out parameters and why?
+2.What is call by value and call by referecnce?
+3.What is param array and when and why do younuse param array
+4.What is a class library
+5.Extension of a class inside a class library
+6.extension of class library
+7.All the classes inside a class library should be declared as__
+8.Give ethe steps to add a class library into console application.
+9.which application types can refer a Class library.x
+10.How to inherit classA into classB
+	Using  :(class B : class A)
+11.How to call parent class constr in the child class constr.
+	public Child(int a,int b):base (a)
+	{}
+12.HOw to call parent class method in child class method.
+	pv Method() 
+	{	
+		base.Method()
+	}
+13.How to prevent a class from getting inherited.
+	using Sealed keyword
+
+14.What are virtual functions and why
+15.What is an abstract method and why
+	Method doesnt have implementation use abstract keyword in parent and no body
+16.What is a sealed method and rules to be followed for a sealed method
+	
+17. What is shadowing
+18.In interfaces what is implement interface and explicit implent interface do, What is the diff
+19.An Exception occured in a method which belongs to classA instance of A is created in main Name to locations where i can write try and catch
+20. Write the syntax for custom exception handling (INvalid Age Exception)
+21.All the collections belong to which namespace
+22.ALl generics belongs to which namespace
+23 List and ArrayList WHich one is collection and which one is genric
+24.generic class of a stack, and Queue
+25.Whaat are delegates and why and when are they used
+26.what is an event , event handler
+27.Give few examples of events
+28.What are attributes and why
+29.Name the attribute we have learnt.
+30.what is reflection and why
+31.Syntax to get the reflection details of a class
+32.Syntax to get all the methods and all the properties using reflection
+33.Rules to be followed to create a delegate
+34.Where to write a delegate how to execute it.
+35.Which mwthod we use to serialize and what are the parameters
+36.Which method we use to deserialize and what are the parameters
+37. Create a delegate for this function and execute the delegate
+	public void fun(int i, int j) {
+		Console.WriteLine($"{i} {j}");
+}
+
+
+___________________________----
+
+1 App
+UI -- presentaation layer (frontened )
+ Enter input 
+ Get output
+ error
+
+2 Business Layer (middle tyre)
+   logic of application
+   divided into many layer
+
+3. Data layer (backened)
+  We can store the data for ever
+  Access data or retrive
+  Search or filter
+  delete
+
+
+Da
+

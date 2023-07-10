@@ -1,0 +1,372 @@
+DAY 3
+
+using System;
+
+using System.Collections.Generic;
+
+using System.Linq;
+
+using System.Text;
+
+using System.Threading.Tasks;
+
+ 
+
+namespace Question2
+
+{
+
+    class Program
+
+    {
+
+        static void Main(string[] args)
+
+        {
+
+            Console.WriteLine("enter age");
+
+            int age = Convert.ToInt32(Console.ReadLine());
+
+ 
+
+            if (age >= 18 && age <= 80)
+
+            {
+
+                Console.WriteLine("Eligible to vote");
+
+            }
+
+            else
+
+            {
+
+                throw new InvalidAgeException("Invalid Age");
+
+                Console.WriteLine("Invalid Age");
+
+            }
+
+ 
+
+            Console.ReadLine();
+
+ 
+
+        }
+
+    }
+
+}
+
+
+[12:41 PM] Pabboju Shivani
+
+[12:28 PM] Gadila Akshitha
+
+using System;
+
+using System.Collections.Generic;
+
+using System.Linq;
+
+using System.Text;
+
+using System.Threading.Tasks;
+
+ 
+
+namespace Question2
+
+{
+
+    class InvalidAgeException : Exception
+
+    {
+
+        public InvalidAgeException(string s) : base(s)
+
+        {
+
+        }
+
+    }
+
+}
+
+
+[12:47 PM] Pabboju Shivani
+
+[12:34 PM] Gadila Akshitha
+
+  internal interface Interface1
+
+    {
+
+        void Method1();
+
+    }
+
+====================================================
+
+ internal interface Interface2
+
+    {
+
+        void Method1();
+
+    }
+
+==================================================
+
+internal class TestInterface : Interface1, Interface2
+
+    {
+
+    void Interface1.Method1()
+
+        {
+
+            Console.WriteLine("Method1 of Interface1");
+
+
+        }
+
+
+      void Interface2.Method1()
+
+        {
+
+            Console.WriteLine("Method1 of Interface2");
+
+        }
+
+    }
+
+==========================================================
+
+internal class Class3
+
+    {
+
+        static void Main(string[] args)
+
+        {
+
+            int choice;
+
+
+            Console.WriteLine("select an option 1/2");
+
+            choice = Convert.ToInt32(Console.ReadLine());
+
+
+            switch (choice)
+
+            {
+
+                case 1:
+
+                    Interface1 obj1 = new TestInterface();
+
+                    obj1.Method1();
+
+                    break;
+
+
+                case 2:
+
+                    Interface2 obj2 = new TestInterface();
+
+                    obj2.Method1();
+
+                    break;
+
+                default:
+
+                    Console.WriteLine("Invalid choice");
+
+                    break;
+
+            }
+
+            Console.ReadLine();
+
+        }
+
+    }
+
+[12:40 PM] Pabboju Shivani [12:28 PM] Gadil... by Kanduru Navya jyothi1:44 PMKanduru Navya jyothi
+
+[12:40 PM] Pabboju Shivani
+
+[12:28 PM] Gadila Akshitha
+
+using System;
+
+using System.Collections.Generic;
+
+using System.Linq;
+
+using System.Text;
+
+using System.Threading.Tasks;
+
+ 
+
+namespace Question2
+
+{
+
+    class Program
+
+    {
+
+        static void Main(string[] args)
+
+        {
+
+            Console.WriteLine("enter age");
+
+            int age = Convert.ToInt32(Console.ReadLine());
+
+ 
+
+            if (age >= 18 && age <= 80)
+
+            {
+
+                Console.WriteLine("Eligible to vote");
+
+            }
+
+            else
+
+            {
+
+                throw new InvalidAgeException("Invalid Age");
+
+                Console.WriteLine("Invalid Age");
+
+            }
+
+ 
+
+            Console.ReadLine();
+
+ 
+
+        }
+
+    }
+
+}
+
+
+[12:41 PM] Pabboju Shivani
+
+[12:28 PM] Gadila Akshitha
+
+using System;
+
+using System.Collections.Generic;
+
+using System.Linq;
+
+using System.Text;
+
+using System.Threading.Tasks;
+
+ 
+
+namespace Question2
+
+{
+
+    class InvalidAgeException : Exception
+
+    {
+
+        public InvalidAgeException(string s) : base(s)
+
+        {
+
+        }
+
+    }
+
+}
+
+
+_______________________________
+_______________________________
+class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Employee> emps = new List<Employee>()
+            {
+                new Employee(){EmployeeID=1,EmpName="Samatha",Designation="Consultant",Department="Training",Salary=1234.33f },
+                new Employee(){EmployeeID=2,EmpName="Namjoon",Designation="Consultant",Department="Training",Salary=1234.33f },
+                new Employee(){EmployeeID=3,EmpName="Samuel",Designation="Consultant",Department="Training",Salary=1234.33f },
+                new Employee(){EmployeeID=4,EmpName="Ritik",Designation="Consultant",Department="Training",Salary=1234.33f },
+                new Employee(){EmployeeID=5,EmpName="KimTeahyung",Designation="Consultant",Department="Training",Salary=1234.33f },
+                new Employee(){EmployeeID=6,EmpName="JHope",Designation="Consultant",Department="Training",Salary=1234.33f }
+            };
+
+ 
+
+
+            foreach (Employee emp in emps)
+            {
+                if (emp.EmpName.StartsWith("S") &&
+                    emp.EmpName.Length > 5)
+                {
+                    Console.Write($"{emp.EmpName} ");
+                }
+
+ 
+
+            }
+
+ 
+
+            Console.ReadLine();
+        }
+    }
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Question1
+{
+class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Employee> emps = new List<Employee>()
+            {
+                new Employee(){EmployeeID=1,EmpName="Samatha",Designation="Consultant",Department="Training",Salary=1234.33f },
+                new Employee(){EmployeeID=2,EmpName="Namjoon",Designation="Consultant",Department="Training",Salary=1234.33f },
+                new Employee(){EmployeeID=3,EmpName="Samuel",Designation="Consultant",Department="Training",Salary=1234.33f },
+                new Employee(){EmployeeID=4,EmpName="Ritik",Designation="Consultant",Department="Training",Salary=1234.33f },
+                new Employee(){EmployeeID=5,EmpName="KimTeahyung",Designation="Consultant",Department="Training",Salary=1234.33f },
+                new Employee(){EmployeeID=6,EmpName="JHope",Designation="Consultant",Department="Training",Salary=1234.33f }
+            };
+            foreach (Employee emp in emps)
+            {
+                if (emp.EmpName.StartsWith("S") &&
+                    emp.EmpName.Length > 5)
+                {
+                    Console.Write($"{emp.EmpName} ");
+                }
+            }
+            Console.ReadLine();
+        }
+
+    }
+}

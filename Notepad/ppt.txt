@@ -1,0 +1,2 @@
+custom exception handling, class obj constr, generics topic, collections
+sending email is hard coded

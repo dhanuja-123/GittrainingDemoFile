@@ -1,0 +1,26 @@
+Static method, getter& setter, exception handling, file handling 
+__________________
+Errors are 3 types
+-syntax error 
+-run time error** what exception it is**
+-logical error **Debugging options - apply break 1st the moment it comes there it pause and then we have to check line at run time ***
+______________
+Error handling and java exception api > exception hierarchy
+  Throwable
+    Error - can't be handled(irrecoverable) |outofmemory
+    Exception - can be handled by the users.
+    2 types- checked(compile  time exception)**eg:IO exception., SQL exception
+	     unchecked(run time exception) **	
+_________________
+getting the output stream through user - using scanner class.
+1st file name existing 
+2nd not existing  
+-to access pvt data out side the class
+-retrive the data
+-takes value from user and assign value t
+__________________-----
+
+--ArrayList are used in the add and remove of the data whereas Linkedlist are using in manipulating the data.
+ --the ArrayList is more efficient as it is common to need access to random items in the list, but the LinkedList provides several methods to do certain operations more efficiently
+--A HashSet is a collection of items where every item is unique, and it is found in the java.util package
+	

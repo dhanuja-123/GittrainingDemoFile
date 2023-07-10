@@ -1,0 +1,95 @@
+Day-9 JAM
+------------
+1.___Fundamentals of infrastructure____refers to the foundation elements and principles that are used for design, deploy and management.
+2.servers,network devices, storage devices,other computer devices fall under which category of infra structure.
+Hardware
+3.operating system falls under which category of infrastructure.
+software
+4._______infrastructure connect various components and devices and enables communication and data transfer.
+Network
+5. give few examples of networking infrastructure.
+LAN,WAN,Fire walls, routers, switches
+6.under which infrastructure do you consider storage capacity, redundancy, backup ,data retrival.
+DAta storage
+7.windows, mac and linux are ______
+Operating sytems
+8.what are virtual machines and under which category do they fall.
+It allows multiple virtual machines (VMs) to run on a single physical machine, optimizing resource utilization and enhancing flexibility in infrastructure management.​ WHICH PROVIDES EVIRONMENT 
+9.__infra is essential to protect data and resources from unauthorised access, data breach or cyber attacks.
+Security
+10.How do we prevent the above attacks and what are athe different options available.
+IMPLEMENT STRONG ACCESS CONTROL 
+USE ENCRYPTION 
+DEPLOY FIREWALLS
+11._____ is imp for ensuring smooth operations and identifying potential issues.
+monitoring and management
+12 managing updates and patches fall under____
+Monitoring and managemnet
+13.3 diff services provided by cloud.
+AAAS,PAAS,SAAS
+14.diff types of cloud models.
+public, private, and hybrid cloud models,
+15.list the infrastructure issues
+Scalability, reliability and resilliance, security, 
+16.load balancing and clusters are used for addressing which issue
+Scalability and reliability
+17.how do u create a reliable and reilliant infrastructure.
+ implementing redundancy, fault-tolerant designs, backup and recovery mechanisms, and disaster recovery plans to minimize downtime and ensure continuous availability of critical services.​
+18.ITIL certification is for_
+ IT service management
+19.and whAT are the diff levels in itil certification.
+ foundation, pracitioner, intermediate, experts and master
+20.what are the 2 diff certifications for networking and which one deals with routers and switches.
+cmoptIA , cisco certified network associate(CCNA)
+21.which certificate in azure is used for infrastructure managment
+Microsoft certfied azure ADMIN ASSOCIATE 
+22.is pmp focused on IT infrastructue
+NO
+23. certification for information security professional
+CISSP (CERTIFIED INFORMATION SYSTEM SECURED PROFESSIONAL)
+24 list the learning paths for certification.
+IT INFRASTRUCTURE SECURITY
+CLOUD COMPUTING AND VIRTTUALIZATION
+IT SERVICE MANAGEMENT
+----------------------------------------------------------------
+
+*Different phases in testing life cycle
+	Requirements analysis- questionnare
+	Test planning- 
+	Test case design
+	Test environment setup
+	Test execution
+	Test cycle closure
+*what is done in each phase
+*what are test cases and why-input,process,output 
+both manual and automation testing
+to check every condition
+	The test case is defined as a group of conditions under which a tester determines whether a software application is working as per the customer's 	requirements or not. Test case designing includes preconditions, case name, input conditions, and expected result. A test case is a first level 	action and derived from test scenarios.
+*list the difference between manual testing and automation testing
+manual-small,step-by-step,time taking,
+automation-large coding,can't be done without proper framework,automatically,less time consuming
+*list some tools used for testing
+selenium
+jira
+apache jb
+protractor
+cucumber
+
+*difference between developmnet  environment testing environmnet production environment
+dev test-for designing code
+envi test-for testing
+prod test-for executing//the project to go live // servers
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+-----||----------------------------------------------------------------------------------------------------------------------------------------------||-----------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
